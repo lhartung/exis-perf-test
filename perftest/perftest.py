@@ -57,4 +57,4 @@ if __name__ == "__main__":
     ws_url = os.environ['WS_URL']
     domain = os.environ['DOMAIN']
 
-    ExampleSession.start(unicode(ws_url), unicode(domain), start_reactor=True)
+    BackendSession.start(unicode(ws_url), unicode(domain), start_reactor=True)
