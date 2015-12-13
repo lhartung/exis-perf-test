@@ -1,0 +1,2 @@
+Base: exis-python
+Command: python -m perftest.perftest
